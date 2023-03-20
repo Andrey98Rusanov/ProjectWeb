@@ -236,7 +236,14 @@ ul > li {
 .content-block__text {
   margin: 16px;
   text-indent: 30px;
-  text-align: justify; }
+  text-align: justify;
+  overflow: hidden;
+  height: 110px; }
+
+.content-block--height-content {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content; }
 
 .content-img {
   display: block;
@@ -378,14 +385,14 @@ a:hover {
   transition: 0.3s; }
 
 /* ______________________________________1.5_______________________________________ */
-.brends-section {
+.cards-section {
   background-color: #FFFFFF;
   border-bottom-color: #D9FFF5;
   border-bottom-style: solid;
   border-bottom-width: 0.001cm;
   padding: 5px; }
 
-.brends-section__title {
+.cards-section__title {
   font-size: 16px;
   font-weight: 400; }
 
@@ -481,6 +488,179 @@ a:hover {
 
 .swiper-pagination-bullet-active {
   background: gray; }
+
+@media (min-width: 1120px) {
+  body {
+    display: flex;
+    width: 100%;
+    overflow: auto; }
+  .acide-menu--display-none {
+    display: flex; }
+  .acide-menu {
+    position: static;
+    width: 500px;
+    height: auto;
+    box-shadow: none;
+    justify-content: flex-start;
+    gap: 200px; }
+  .acide-close-button {
+    display: none; } }
+
+.card--repair {
+  height: 150px;
+  display: block;
+  padding-left: 10px;
+  font-weight: 500; }
+
+.card-button--repair {
+  bottom: 20px; }
+
+@media (max-width: 768px) {
+  .swiper-wrapper {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 20px; } }
+
+.services {
+  width: 260px;
+  height: 200px;
+  border-color: #EAEAEA;
+  border-style: solid;
+  border-width: 0.001cm;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px; }
+
+@media (min-width: 768px) {
+  .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-bottom: solid #dfd2d2 1px;
+    border-radius: 0%;
+    height: 70px;
+    position: static;
+    width: auto; } }
+
+.services--display-none {
+  display: none; }
+
+@media (min-width: 768px) {
+  .services--display-none {
+    display: flex; } }
+
+.services__text {
+  margin: 0px; }
+
+.services__text--color {
+  color: gray; }
+
+@media (min-width: 768px) {
+  .services__text--display-none {
+    display: none; } }
+
+.services__block {
+  width: 200px;
+  align-items: center; }
+
+.services__button {
+  background: #FF3E79;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 120px;
+  justify-content: space-around;
+  position: absolute;
+  right: 10px;
+  bottom: 30px; }
+
+@media (min-width: 768px) {
+  .services__button {
+    position: static; } }
+
+.arrow {
+  border: solid white 3px;
+  border-left: none;
+  border-bottom: none;
+  rotate: 45deg;
+  width: 7px;
+  height: 7px; }
+
+.services--white {
+  background: #FFFFFF; }
+
+.swiper-wrapper--services {
+  padding: 20px; }
+
+@media (min-width: 768px) {
+  .swiper-wrapper--services {
+    display: block; } }
+
+.info {
+  color: gray; }
+
+.arrow--color-red {
+  border-color: #FF3E79; }
+
+.info__sall {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  padding: auto;
+  margin: 0;
+  cursor: pointer; }
+
+@media (max-width: 768px) {
+  .info__sall {
+    gap: 5px;
+    text-align: start; } }
+
+.info__text {
+  max-width: 450px;
+  margin-left: 20px; }
+
+.info__company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: auto; }
+
+@media (min-width: 768px) {
+  .info__company {
+    flex-direction: row;
+    gap: 40px;
+    text-align: start; } }
+
+.info__point {
+  margin-bottom: 20px;
+  width: auto; }
+
+@media (min-width: 768px) {
+  .info__point {
+    width: 40%; } }
 
 
 /*# sourceMappingURL=style.css.map*/
