@@ -37,11 +37,11 @@ const acideMenu = document.querySelector(".acide-menu")
 const burgerButtonClose = document.querySelector(".acide-close-button");
 
 burgerButton.addEventListener('click', function () {
-    acideMenu.classList.remove('acide-menu--display-none') 
+    acideMenu.classList.add('acide-menu--open') 
 });
 
 burgerButtonClose.addEventListener('click', function () {
-    acideMenu.classList.add('acide-menu--display-none')
+  acideMenu.classList.remove('acide-menu--open')
 });
 
 // _________________

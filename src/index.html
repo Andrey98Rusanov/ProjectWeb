@@ -12,7 +12,7 @@
 
 <body>
 
-    <section class="acide-menu acide-menu--display-none">
+    <section class="acide-menu acide-menu--close">
 
         <div>
             <header class="acide-head">
@@ -547,6 +547,45 @@
         </footer>
 
     </section>
+
+    <section class="modal">
+        <button class="menu-button">
+            <img src="img\close.svg" alt="Меню">
+        </button>
+    
+        <div class="modal__title vertical-menu__el-active">
+            <h1><b>Надпись блядь</b></h1>
+        </div>
+    
+    <ul class="modal__info">
+        <li class="modal__name">    
+            <input class="modal__point" type="text" placeholder=" Имя">
+        </li>
+        <li class="modal__number">    
+            <input class="modal__point" type="number" placeholder=" Телефон">
+        </li>
+        <li class="modal__mail">  
+            <input class="modal__point" type="email" placeholder=" Почта">  
+        </li>
+        <li class="modal__text">
+            <input class="modal__point modal__point--message" type="text" placeholder=" Сообщение">
+        </li>
+    </ul>
+    
+        <div class="modal__discription">Нажимая на кнопку "отправить" вы даете согласие на 
+            <a class="modal__link" href="">обработку персональных данных</a>
+            и соглашаетесь с нашей <a class="modal__link" href="">политикой конфиденциальности</a>
+        </div>
+
+    <div class="modal__flexButton">
+        <button class="modal__button services__button">
+            <span>Отправить</span>
+            <div class="arrow"></div>
+        </button>
+    </div>
+
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 </body>

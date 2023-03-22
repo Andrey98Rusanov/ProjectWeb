@@ -355,10 +355,13 @@ ul>li {
   justify-content: space-between;
   backdrop-filter: blur(10px);
   z-index: 1000;
+  left: -350px;
+  transition: left .4s;
 }
 
-.acide-menu--display-none {
-  display: none;
+.acide-menu--open {
+  left: 0px;
+  transition: left .4s;
 }
 
 .acide-head {
@@ -733,7 +736,7 @@ a:hover {
   justify-content: space-around;
   position: absolute;
   right: 10px;
-  bottom: 30px;
+  bottom: 40px;
 }
 
 @media(min-width:768px) {
@@ -769,10 +772,11 @@ a:hover {
 
 .info{
   color: gray;
+  margin: 15px;
 }
 
 .arrow--color-red{
-  border-color:  #FF3E79;;
+  border-color:  #FF3E79;
 }
 
 .info__sall{
@@ -784,22 +788,30 @@ a:hover {
   font-family: inherit;
   font-size: inherit;
   font-weight: 500;
-  padding: auto;
+  padding: 0;
   margin: 0;
+  margin-top: 10px;
   cursor: pointer;
+  text-align: center;
 }
 
 @media(max-width:768px) {
   .info__sall{
     gap: 5px;
     text-align: start;
-
   }
 }
 
+
+
 .info__text{
   max-width: 450px;
-  margin-left: 20px;
+}
+
+@media(max-width:768px) {
+  .info__text--weight{
+    max-width: 200px;
+  }
 }
 
 .info__company{
@@ -808,7 +820,8 @@ a:hover {
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  padding: auto;
+  padding: 0;
+  margin-top: 30px;
 }
 
 @media(min-width:768px) {
@@ -828,4 +841,67 @@ a:hover {
   .info__point{
     width: 40% ;
   }
+}
+
+// ___________________
+.modal {
+  width: 280px;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  right: 0%;
+  transition: right 2s;
+  top: 0%;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000; 
+}
+
+.modal__info{
+  padding: 0;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.modal__point{
+  margin-bottom: 10px;
+  border: solid gray 0.1px;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+}
+
+.modal__point--message{
+  height: 100px;
+}
+
+.modal__point::placeholder{
+  font-family: "TT Lakes";
+  font-size: 15px;
+}
+
+.modal__point--message::placeholder{
+  position: absolute;
+  top: 7px;
+}
+
+.modal__title{
+  padding: 0;
+}
+
+.modal__discription{
+  margin-bottom: 20px;
+}
+
+.modal__link{
+  color: #FF3E79;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal__flexButton{
+  display: flex;
+  justify-content: end;
 }
