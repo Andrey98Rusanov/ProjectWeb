@@ -11,16 +11,16 @@
 
 <body>
 
-    <section class="acide-menu acide-menu--display-none">
+    <section class="acide-menu acide-menu--close">
 
         <div>
-            <header class="acide-head">
-                <div class="acide-block">
+            <header class="acide-menu__head">
+                <div class="acide-menu__block">
                     <button class="menu-button acide-close-button">
                         <img src="img\close.svg" alt="Меню">
                     </button>
                     <a class="logo" href="">
-                        <img class="logo-img" src="img\group.svg" alt="">
+                        <img class="logo__img" src="img\group.svg" alt="">
                     </a>
                 </div>
 
@@ -62,14 +62,14 @@
         </div>
 
         <footer class="acide-menu__bottom-block">
-            <ul class="acide-buttons">
+            <ul class="acide-menu__buttons">
                 <li>
-                    <button class="menu-button">
+                    <button class="menu-button phone-modal-button">
                         <img src="img\tube.svg" alt="">
                     </button>
                 </li>
                 <li>
-                    <button class="menu-button">
+                    <button class="menu-button message-modal-button">
                         <img src="img\message.svg" alt="">
                     </button>
                 </li>
@@ -80,20 +80,20 @@
                 </li>
             </ul>
 
-            <address class="contacts">
+            <address class="acide-menu__contacts">
                 <a class="mail link" type="mail" href="mailto:mail@cps.com">mail@cps.com</a>
                 <a class="phone-number link" type="phone-number" href="tel:+78008908900">8 800 890 8900</a>
             </address>
 
             <ul class="languages acide-menu__languages">
                 <li class="languages__el">
-                    <button class="lan__button lan__button--active">RU</button>
+                    <button class="languages__button languages__button--active">RU</button>
                 </li>
                 <li class="languages__el">
-                    <button class="lan__button">EN</button>
+                    <button class="languages__button">EN</button>
                 </li>
                 <li class="languages__el">
-                    <button class="lan__button">CH</button>
+                    <button class="languages__button">CH</button>
                 </li>
             </ul>
         </footer>
@@ -108,19 +108,19 @@
                     </button>
                 </div>
                 <a class="logo" href="">
-                    <img class="logo-img" src="img\group.svg" alt="">
+                    <img class="logo__img" src="img\group.svg" alt="">
                 </a>
             </div>
 
             <div class="menu-head__container-right">
                 <ul class="menu-head__divide-right">
                     <li>
-                        <button class="menu-button">
+                        <button class="menu-button phone-modal-button">
                             <img src="img\tube.svg" alt="">
                         </button>
                     </li>
                     <li>
-                        <button class="menu-button">
+                        <button class="menu-button message-modal-button">
                             <img src="img\message.svg" alt="">
                         </button>
                     </li>
@@ -142,7 +142,8 @@
             </div>
         </header>
 
-        <div class="title-menu">
+        <span class="blur-close">
+        <div class="title__menu">
             <div class="title">
                 <h1><b>Услуги и сервисы</b></h1>
             </div>
@@ -210,7 +211,7 @@
                 </button>
             </div>
 
-            <img src="img\logo.jpg" alt="" class="content-img">
+            <img src="img\logo.jpg" alt="" class="content__img">
         </div>
 
         
@@ -544,8 +545,48 @@
                 </li>
             </ul>
         </footer>
+    </span>
+    </section>
+
+    <section class="modal">
+
+        <button class="modal__close-button menu-button">
+            <img src="img\close.svg" alt="Меню">
+        </button>
+    
+        <div class="modal__title vertical-menu__el-active">
+            <h1 class="modal__text"><b>Надпись блядь</b></h1>
+        </div>
+    
+    <ul class="modal__info">
+        <li class="modal__name">    
+            <input class="modal__point" type="text" placeholder=" Имя">
+        </li>
+        <li class="modal__number">    
+            <input class="modal__point" type="number" placeholder=" Телефон">
+        </li>
+        <li class="modal__mail">  
+            <input class="modal__point" type="email" placeholder=" Почта">  
+        </li>
+        <li class="modal__message">
+            <input class="modal__point modal__point--message" type="text" placeholder=" Сообщение">
+        </li>
+    </ul>
+    
+        <div class="modal__discription">Нажимая на кнопку "отправить" вы даете согласие на 
+            <a class="modal__link" href="">обработку персональных данных</a>
+            и соглашаетесь с нашей <a class="modal__link" href="">политикой конфиденциальности</a>
+        </div>
+
+    <div class="modal__flexButton">
+        <button class="modal__button services__button">
+            <span>Отправить</span>
+            <div class="arrow"></div>
+        </button>
+    </div>
 
     </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 <script type="text/javascript" src="./js/bundle.js"></script></body>
