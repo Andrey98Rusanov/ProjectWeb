@@ -1,0 +1,26 @@
+@import 'default_variables';
+
+.vertical-menu__el {
+  margin: 0;
+  padding: 0;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.vertical-menu__el-active {
+  display: flex;
+  align-items: center;
+}
+
+.vertical-menu__el-active>a {
+  color: gray;
+}
+
+.vertical-menu__el-active::before {
+  content: "";
+  height: 5vh;
+  width: 5px;
+  background: $activeBorder;
+  border-radius: 0% 20px 20px 0%;
+  position: absolute;
+  left: 0;
+}

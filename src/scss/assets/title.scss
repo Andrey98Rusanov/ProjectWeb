@@ -1,0 +1,27 @@
+@import 'default_variables';
+
+.title {
+  display: flex;
+  width: 304px;
+  height: 40px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  gap: 5px;
+}
+
+.title::before {
+  content: "";
+  height: 40px;
+  width: 4px;
+  background: $activeBorder;
+  border-radius: 0% 20px 20px 0%;
+}
+
+@media (min-width:1120px) {
+  .title__menu {
+    display: flex;
+    justify-content: space-between;
+  }
+}

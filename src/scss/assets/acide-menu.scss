@@ -1,0 +1,80 @@
+@import 'default_variables';
+
+.acide-menu {
+  width: 280px;
+  height: 100vh;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+  background: $white;
+  padding: 2vh 20px 2vh 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  left: -350px;
+  transition: left .4s;
+}
+
+.acide-menu--open {
+  left: 0px;
+  transition: left .4s;
+}
+
+.acide-menu__bottom-block {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.acide-menu__languages {
+  margin-bottom: 4vh;
+  margin-top: 3vh;
+}
+
+@media(min-width:1120px) {
+
+  .acide-menu--display-none {
+    display: flex;
+  }
+
+  .acide-menu {
+    position: static;
+    width: 500px;
+    height: auto;
+    box-shadow: none;
+    justify-content: flex-start;
+    gap: 20px;
+    transition: filter 0.5s;
+  }
+}
+
+.acide-menu__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.acide-menu__block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.acide-menu__buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.acide-menu__contacts {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  padding: 0;
+}

@@ -1,0 +1,13 @@
+@import 'default_variables';
+
+.content-block__text {
+  margin: 16px;
+  text-indent: 30px;
+  text-align: justify;
+  overflow: hidden;
+  height: 110px;
+}
+
+.content-block--height-content{
+  height: max-content;
+}

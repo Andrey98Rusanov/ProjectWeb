@@ -1,0 +1,26 @@
+$mainBackColor: #F8F8F8;
+$white: #FFFFFF;
+$borderColor: #D9FFF5;
+$divideColor: #EAEAEA;
+$buttonBackColor: #FF3E79;
+$activeBorder: #41F6D7;
+
+body {
+  background-color: $mainBackColor;
+  font-family: "TT Lakes";
+  margin: 0;
+}
+
+ul>li {
+  list-style-type: none;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}

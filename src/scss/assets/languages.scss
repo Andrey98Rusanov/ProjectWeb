@@ -1,0 +1,22 @@
+@import 'default_variables';
+
+.languages__button {
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: 450;
+  cursor: pointer;
+}
+
+.languages__button--active {
+  color: gray;
+}
+
+.languages {
+  display: flex;
+  padding: 0;
+}
+
+.languages__el {
+  display: block;
+}

@@ -1,0 +1,12 @@
+@import 'default_variables';
+
+.title-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  background-color: $mainBackColor;
+  gap: 10px;
+  cursor: pointer;
+}
+
