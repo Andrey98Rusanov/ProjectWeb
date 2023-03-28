@@ -1,0 +1,97 @@
+@import 'default_variables';
+
+.services{
+  width: 260px;
+  height: 200px;
+  border-color: $divideColor;
+  border-style: solid;
+  border-width: 0.001cm;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+@media(min-width:768px) {
+  .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-bottom: solid rgb(223, 210, 210) 1px;
+    border-radius: 0%;
+    height: 70px;
+    position: static;
+    width: auto;
+  }
+
+  .services:nth-child(1), .services:nth-child(6){
+    border-bottom: none;
+  }
+}
+
+.services--display-none{
+  display: none;
+}
+
+@media(min-width:768px) {
+  .services--display-none{
+    display: flex;
+  }
+}
+
+.services__text{
+  margin: 0px;
+}
+
+.services__text--color{
+  color: gray;
+}
+
+@media(min-width:768px) {
+  .services__text--display-none {
+    display: none;
+  }
+}
+
+.services__block {
+  width: 200px;
+  align-items: center;
+}
+
+.services__button {
+  background: $buttonBackColor;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 120px;
+  justify-content: space-around;
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+}
+
+@media(min-width:768px) {
+  .services__button {
+    position: static;
+  }
+}
+
+
+
+.services--white {
+  background: $white;
+}

@@ -11,6 +11,14 @@ body {
   margin: 0;
 }
 
+@media(min-width:1120px) {
+  body {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+  }
+}
+
 ul>li {
   list-style-type: none;
 }

@@ -1,0 +1,14 @@
+@import 'default_variables';
+
+.cards-section {
+  background-color: $white;
+  border-bottom-color: $borderColor;
+  border-bottom-style: solid;
+  border-bottom-width: 0.001cm;
+  padding: 5px;
+}
+
+.cards-section__title {
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,30 @@
+@import 'default_variables';
+
+.brands-button__text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.brands-button {
+  border: none;
+  background-color: inherit;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.brands-button__img {
+  width: 30px;
+  height: 30px;
+}
+
+.brands-button__img--rotate {
+  transform: rotate(180deg)
+}
+
+@media(max-width:768px) {
+  .brands-button {
+    display: none;
+  }
+}

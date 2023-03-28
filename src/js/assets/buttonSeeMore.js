@@ -15,7 +15,6 @@ buttonSeeMore.addEventListener('click', function () {
     }
   });
 
-// _________________
 const buttonSeeMoreRep = document.querySelector(".brands-button--repair");
 const cardsRep = document.querySelector('.cards--repair');
 const buttonSeeMoreRep__text = document.querySelector('.brands-button__text--repair')
@@ -32,8 +31,6 @@ buttonSeeMoreRep.addEventListener('click', function () {
     buttonSeeMoreRep__img.classList.add('brands-button__img--rotate');
   }
 });
-
-// _____________________
 
 const text = document.querySelector('.content-block__text');
 const ButtonSeeMoreText = document.querySelector('.button');

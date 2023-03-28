@@ -1,0 +1,39 @@
+@import 'default_variables';
+
+@media (min-width:768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 1vw;
+    row-gap: 20px;
+    justify-items: center;
+    padding: 15px;
+    align-items: center;
+    height: 140px;
+    overflow: hidden;
+  }
+}
+
+.cards--height-content {
+  height: max-content;
+}
+
+@media (min-width:1120px) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .card--display--none:nth-child(7) {
+    display: flex;
+  }
+
+  .card--display--none:nth-child(8) {
+    display: flex;
+  }
+}
+
+.cards__brands-button {
+  margin-left: 10px;
+}

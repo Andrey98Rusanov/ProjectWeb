@@ -1,0 +1,12 @@
+.arrow{
+  border: solid white 3px;
+  border-left: none;
+  border-bottom: none;
+  rotate: 45deg;
+  width: 7px;
+  height: 7px;
+}
+
+.arrow--color-red{
+  border-color:  $buttonBackColor;
+}
