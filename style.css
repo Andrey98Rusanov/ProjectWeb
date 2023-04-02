@@ -26,23 +26,15 @@
   font-weight: 300;
   font-style: normal; }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
 ul > li {
   list-style-type: none; }
 
 a:hover {
   opacity: 0.8;
   transition: 0.3s; }
+
+a {
+  cursor: pointer; }
 
 button:hover {
   opacity: 0.8;
@@ -62,8 +54,8 @@ button:hover {
   justify-content: space-between;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  z-index: 1000;
-  left: -350px;
+  z-index: 2;
+  left: -400px;
   transition: left .4s; }
 
 .acide-menu--open {
@@ -116,50 +108,6 @@ button:hover {
   flex-direction: column;
   gap: 3vh;
   padding: 0; }
-
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
 
 .menu-head {
   display: flex;
@@ -238,28 +186,6 @@ button:hover {
   .menu-head {
     display: none; } }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
 .menu-button {
   border: none;
   width: 40px;
@@ -278,28 +204,6 @@ button:hover {
   width: 96.55px;
   height: 50.81px;
   display: block; }
-
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
 
 .title {
   display: flex;
@@ -323,28 +227,6 @@ button:hover {
     display: flex;
     justify-content: space-between; } }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
 .title-buttons {
   display: none; }
 
@@ -361,28 +243,6 @@ button:hover {
   font-weight: 500;
   line-height: 24px; }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
 .title-button {
   display: flex;
   align-items: center;
@@ -391,28 +251,6 @@ button:hover {
   background-color: #F8F8F8;
   gap: 10px;
   cursor: pointer; }
-
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
 
 .nav-menu {
   display: flex;
@@ -457,28 +295,6 @@ button:hover {
   font-weight: 450;
   margin-top: 5vh; }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
 .button {
   display: flex;
   align-items: center;
@@ -494,28 +310,6 @@ button:hover {
 .button__img {
   width: 24px;
   height: 24px; }
-
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
 
 @media (min-width: 768px) {
   .content {
@@ -542,61 +336,18 @@ button:hover {
     width: 532px;
     height: 307px; } }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
 .content-block__text {
   margin: 16px;
   text-indent: 30px;
   text-align: justify;
   overflow: hidden;
-  height: 110px; }
+  height: 120px;
+  line-height: 24px; }
 
 .content-block--height-content {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content; }
-
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
 
 .vertical-menu__el {
   margin: 0;
@@ -625,28 +376,6 @@ button:hover {
   text-decoration: none;
   color: black; }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
 .languages__button {
   border: none;
   background-color: inherit;
@@ -668,60 +397,17 @@ button:hover {
   font-weight: 600;
   font-size: 24px; }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
 .cards-section {
   background-color: #FFFFFF;
   border-bottom-color: #D9FFF5;
   border-bottom-style: solid;
   border-bottom-width: 0.001cm;
-  padding: 5px; }
+  padding: 5px;
+  background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%); }
 
 .cards-section__title {
   font-size: 16px;
   font-weight: 400; }
-
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
 
 .card {
   background-color: #FFFFFF;
@@ -764,28 +450,6 @@ button:hover {
   padding-left: 10px;
   font-weight: 500; }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
 @media (min-width: 768px) {
   .cards {
     display: grid;
@@ -817,28 +481,6 @@ button:hover {
 .cards__brands-button {
   margin-left: 10px; }
 
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
 .brands-button__text {
   font-size: 16px;
   font-weight: 600;
@@ -847,9 +489,10 @@ button:hover {
 .brands-button {
   border: none;
   background-color: inherit;
-  display: flex;
+  display: none;
   cursor: pointer;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 10px; }
 
 .brands-button__img {
   width: 30px;
@@ -858,30 +501,39 @@ button:hover {
 .brands-button__img--rotate {
   transform: rotate(180deg); }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .brands-button {
-    display: none; } }
+    display: flex; } }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .swiper-wrapper {
     height: 90px; } }
 
 .swiper-pagination-bullet-active {
   background: gray; }
 
-@media (max-width: 768px) {
+.swiper-wrapper {
+  padding: 20px; }
+
+.swiper-wrapper--services {
+  margin-bottom: 20px; }
+
+@media (max-width: 767px) {
   .swiper-wrapper {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
+    padding: 20px; }
+  .swiper-wrapper--services {
     padding: 20px; } }
-
-.swiper-wrapper--services {
-  padding: 20px; }
 
 @media (min-width: 768px) {
   .swiper-wrapper--services {
-    display: block; } }
+    display: block; }
+  .swiper-wrapper {
+    padding: 0px; }
+  .swiper-wrapper--services {
+    margin-bottom: 0px; } }
 
 @media (min-width: 1120px) {
   .acide-close-button {
@@ -889,28 +541,6 @@ button:hover {
 
 .card-button--repair {
   bottom: 20px; }
-
-body {
-  background-color: #F8F8F8;
-  font-family: "TT Lakes";
-  margin: 0; }
-
-@media (min-width: 1120px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: auto; } }
-
-ul > li {
-  list-style-type: none; }
-
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
-
-button:hover {
-  opacity: 0.8;
-  transition: 0.3s; }
 
 .services {
   width: 260px;
@@ -923,7 +553,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 15px; }
+  padding: 15px;
+  margin: 0; }
 
 @media (min-width: 768px) {
   .services {
@@ -931,9 +562,11 @@ button:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
     margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 0;
+    padding-left: 15px;
     border: none;
     border-bottom: solid #dfd2d2 1px;
     border-radius: 0%;
@@ -980,7 +613,7 @@ button:hover {
   justify-content: space-around;
   position: absolute;
   right: 10px;
-  bottom: 40px; }
+  bottom: 45px; }
 
 @media (min-width: 768px) {
   .services__button {
@@ -1066,7 +699,7 @@ button:hover {
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
-  z-index: 1000; }
+  z-index: 3; }
 
 .modal-open {
   right: 0px;
@@ -1146,18 +779,35 @@ button:hover {
 .modal__info--display-none {
   display: none; }
 
-.blur {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
-  cursor: pointer;
-  transition: -webkit-filter 0.5s;
-  transition: filter 0.5s;
-  transition: filter 0.5s, -webkit-filter 0.5s; }
-
 .main-page {
   transition: -webkit-filter 0.5s;
   transition: filter 0.5s;
   transition: filter 0.5s, -webkit-filter 0.5s; }
+
+.allContent {
+  background-color: #F8F8F8;
+  font-family: "TT Lakes"; }
+
+.allContent::-webkit-scrollbar {
+  width: 0; }
+
+@media (min-width: 1120px) {
+  .allContent {
+    display: flex; } }
+
+.overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #FFFFFF;
+  opacity: 0;
+  z-index: 1001;
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s;
+  visibility: hidden; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
