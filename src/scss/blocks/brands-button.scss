@@ -1,5 +1,3 @@
-@import 'default_variables';
-
 .brands-button__text {
   font-size: 16px;
   font-weight: 600;
@@ -9,9 +7,10 @@
 .brands-button {
   border: none;
   background-color: inherit;
-  display: flex;
+  display: none;
   cursor: pointer;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .brands-button__img {
@@ -23,8 +22,8 @@
   transform: rotate(180deg)
 }
 
-@media(max-width:768px) {
+@media(min-width:768px) {
   .brands-button {
-    display: none;
+    display: flex;
   }
 }

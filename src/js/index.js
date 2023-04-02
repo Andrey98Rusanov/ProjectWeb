@@ -1,7 +1,7 @@
 import '../scss/style.scss'
-import './assets/swiper.js';
-import './assets/acide.js';
-import './assets/buttonSeeMore.js';
-import './assets/modal.js';
-import './assets/blurClose.js';
+import './scripts/swiper.js';
+import './scripts/acide.js';
+import './scripts/buttonSeeMore.js';
+import './scripts/modal.js';
+import './scripts/overlay.js';
 

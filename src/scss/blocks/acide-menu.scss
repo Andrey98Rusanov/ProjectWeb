@@ -1,5 +1,3 @@
-@import 'default_variables';
-
 .acide-menu {
   width: 280px;
   height: 100vh;
@@ -13,8 +11,8 @@
   flex-direction: column;
   justify-content: space-between;
   backdrop-filter: blur(10px);
-  z-index: 1000;
-  left: -350px;
+  z-index: 2;
+  left: -400px;
   transition: left .4s;
 }
 

@@ -1,11 +1,11 @@
-@import 'default_variables';
-
 .cards-section {
   background-color: $white;
   border-bottom-color: $borderColor;
   border-bottom-style: solid;
   border-bottom-width: 0.001cm;
   padding: 5px;
+  background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+
 }
 
 .cards-section__title {

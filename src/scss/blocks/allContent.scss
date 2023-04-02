@@ -1,0 +1,14 @@
+.allContent {
+  background-color: $mainBackColor;
+  font-family: "TT Lakes";
+}
+
+.allContent::-webkit-scrollbar {
+  width:0;
+}
+
+@media(min-width:1120px) {
+  .allContent {
+    display: flex;
+  }
+}

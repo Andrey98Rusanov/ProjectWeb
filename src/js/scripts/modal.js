@@ -1,5 +1,5 @@
-import { acideMenu } from "./acide.js";
-import { mainPage } from "./acide.js";
+import { overlay } from "./acide.js"
+import { body } from "./acide.js"
 
 const openPhoneButton = document.querySelectorAll(".phone-modal-button"); 
 export const Modal = document.querySelector(".modal")
@@ -14,35 +14,33 @@ for (let i = 0; i<2; i++) {
 openPhoneButton[i].addEventListener('click', function () {
   Modal.classList.add('modal-open') 
   ModalTitle.textContent = "Заказать звонок"
-
-  mainPage.classList.add("blur")
-  if(getComputedStyle(acideMenu).position == "static"){
-    acideMenu.classList.add('blur')
-  }
   name.classList.add("modal__info--display-none")
   mail.classList.add("modal__info--display-none")
   message.classList.add("modal__info--display-none")
-
+  overlay.style.zIndex = "2"
+  overlay.style.opacity = "0.9"
+  overlay.style.visibility = "visible"
+  body.style.overflow = "hidden"
 });
 }
 
 closeModalButton.addEventListener('click', function () {
   Modal.classList.remove('modal-open')
-  mainPage.classList.remove("blur")
-  acideMenu.classList.remove("blur")
+  overlay.style.opacity = "0"
+  overlay.style.visibility = "hidden"
+  body.style.overflow = "auto"
 });
 
 for (let i = 0; i<2; i++) {
   openMessageButton[i].addEventListener('click', function () {
     Modal.classList.add('modal-open') 
     ModalTitle.textContent = "Обратная связь"
-
-    mainPage.classList.add("blur")
-    if(getComputedStyle(acideMenu).position == "static"){
-      acideMenu.classList.add('blur')
-    }
     name.classList.remove("modal__info--display-none")
     mail.classList.remove("modal__info--display-none")
     message.classList.remove("modal__info--display-none")
+    overlay.style.zIndex = "2"
+    overlay.style.opacity = "0.9"
+    overlay.style.visibility = "visible"
+    body.style.overflow = "hidden"
   });
   }

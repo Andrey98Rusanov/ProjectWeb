@@ -3,7 +3,7 @@ let newSwiper = new Swiper('.swiper', {
   spaceBetween: 15,
   slidesPerView: 'auto',
   breakpoints: {
-    767: {
+    768: {
       enabled: false,
     },
   },

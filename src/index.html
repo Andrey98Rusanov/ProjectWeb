@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body class="allContent">
 
     <section class="acide-menu acide-menu--close">
 
@@ -143,7 +143,7 @@
             </div>
         </header>
 
-        <span class="blur-close">
+
         <div class="title__menu">
             <div class="title">
                 <h1><b>Услуги и сервисы</b></h1>
@@ -405,7 +405,8 @@
 
                 <ul class="services services--white swiper-slide">
                     <li class="services__block">
-                        <p class="services__text services__text--color services__text--display-none">Ремонтные услуги
+                        <p class="services__text services__text--color services__text--display-none">Ремонтные
+                            услуги
                         </p>
                         <p class="services__text">Диагностика</p>
                     </li>
@@ -427,7 +428,8 @@
 
                 <ul class="services services--white swiper-slide">
                     <li class="services__block">
-                        <p class="services__text services__text--color services__text--display-none">Ремонтные услуги
+                        <p class="services__text services__text--color services__text--display-none">Ремонтные
+                            услуги
                         </p>
                         <p class="services__text">Замена дисплея</p>
                     </li>
@@ -449,7 +451,8 @@
 
                 <ul class="services services--white swiper-slide">
                     <li class="services__block">
-                        <p class="services__text services__text--color services__text--display-none">Ремонтные услуги
+                        <p class="services__text services__text--color services__text--display-none">Ремонтные
+                            услуги
                         </p>
                         <p class="services__text">Замена полифонического динамика</p>
                     </li>
@@ -471,7 +474,8 @@
 
                 <ul class="services services--white swiper-slide">
                     <li class="services__block">
-                        <p class="services__text services__text--color services__text--display-none">Ремонтные услуги
+                        <p class="services__text services__text--color services__text--display-none">Ремонтные
+                            услуги
                         </p>
                         <p class="services__text">Тестирование с выдачей технического заключения</p>
                     </li>
@@ -493,7 +497,8 @@
 
                 <ul class="services services--white swiper-slide">
                     <li class="services__block">
-                        <p class="services__text services__text--color services__text--display-none">Ремонтные услуги
+                        <p class="services__text services__text--color services__text--display-none">Ремонтные
+                            услуги
                         </p>
                         <p class="services__text">Замена программного обеспечения</p>
                     </li>
@@ -532,21 +537,20 @@
 
             <ul class="info__company">
                 <li class="info__point">
-                    <span>&#169; 2019 CPS</span>
+                    <a>&#169; 2019 CPS</a>
                     <br>
-                    <span>Разработано командой Apesong</span>
+                    <a>Разработано командой Apesong</a>
                 </li>
                 <li class="info__point">
-                    <spam>Политика конфиденциальности</spam>
+                    <a>Политика конфиденциальности</a>
                 </li>
                 <li class="info__point">
-                    <span>
+                    <a>
                         Информация, размещенная на данной странице, не является публичной офертой
-                    </span>
+                    </a>
                 </li>
             </ul>
         </footer>
-    </span>
     </section>
 
     <section class="modal">
@@ -554,39 +558,41 @@
         <button class="modal__close-button menu-button">
             <img src="img\close.svg" alt="Меню">
         </button>
-    
+
         <div class="modal__title vertical-menu__el-active">
             <h1 class="modal__text"><b>Надпись блядь</b></h1>
         </div>
-    
-    <ul class="modal__info">
-        <li class="modal__name">    
-            <input class="modal__point" type="text" placeholder=" Имя">
-        </li>
-        <li class="modal__number">    
-            <input class="modal__point" type="number" placeholder=" Телефон">
-        </li>
-        <li class="modal__mail">  
-            <input class="modal__point" type="email" placeholder=" Почта">  
-        </li>
-        <li class="modal__message">
-            <input class="modal__point modal__point--message" type="text" placeholder=" Сообщение">
-        </li>
-    </ul>
-    
-        <div class="modal__discription">Нажимая на кнопку "отправить" вы даете согласие на 
+
+        <ul class="modal__info">
+            <li class="modal__name">
+                <input class="modal__point" type="text" placeholder=" Имя">
+            </li>
+            <li class="modal__number">
+                <input class="modal__point" type="number" placeholder=" Телефон">
+            </li>
+            <li class="modal__mail">
+                <input class="modal__point" type="email" placeholder=" Почта">
+            </li>
+            <li class="modal__message">
+                <input class="modal__point modal__point--message" type="text" placeholder=" Сообщение">
+            </li>
+        </ul>
+
+        <div class="modal__discription">Нажимая на кнопку "отправить" вы даете согласие на
             <a class="modal__link" href="">обработку персональных данных</a>
             и соглашаетесь с нашей <a class="modal__link" href="">политикой конфиденциальности</a>
         </div>
 
-    <div class="modal__flexButton">
-        <button class="modal__button services__button">
-            <span>Отправить</span>
-            <div class="arrow"></div>
-        </button>
-    </div>
+        <div class="modal__flexButton">
+            <button class="modal__button services__button">
+                <span>Отправить</span>
+                <div class="arrow"></div>
+            </button>
+        </div>
 
     </section>
+
+    <div class="overlay"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
